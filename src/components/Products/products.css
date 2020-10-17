@@ -1,0 +1,95 @@
+.grid-section{
+    margin-top: 35px;
+    margin-left: 35px;
+    width: 95%;
+    color: #01b2ee;
+}
+
+.products-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    width: 100%;
+    flex: 1;
+    justify-content: space-around;
+
+}
+
+.products-list  .top-card{
+    margin: 5px;
+    margin-bottom: 5px;
+
+
+}
+
+.products-list .card-location{
+    line-height: 1px;
+}
+
+.card-title{
+    color: #4f5864;
+}
+
+.card-location{
+    color: #92a2ad;
+
+}
+
+.grid-section header{
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-left: 35px;
+}
+
+.grid-section-title{
+    font-size: 32px;
+    font-weight: 700;
+    display: inline-block;
+    vertical-align: middle;
+    color: #4f5864;
+    cursor: pointer;
+    margin-right: 15px;
+
+
+}
+
+header .btn:not(:disabled):not(.disabled):hover{
+    text-decoration: none;
+    background-color: #24c7fe;
+}
+
+header .btn:not(:disabled):not(.disabled){
+    height: fit-content;
+}
+
+
+@media (min-width: 1200px){
+.grid-section {
+    max-width: 1385px;
+}
+}
+
+@media (min-width: 1160px){
+    .products-list  .top-card{
+        max-width: 1385px;
+        width: 20%;
+    }
+
+    .products-list .back{
+        height: 218px;
+    }
+
+    .products-list .top-card .card-img-top{
+        height: 218px;
+    }
+
+    .products-list .top-card:hover .back{
+        height: 218px;
+    }
+
+    }
+    
+
+
+/* 1160 */

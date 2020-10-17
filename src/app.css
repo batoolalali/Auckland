@@ -1,0 +1,21 @@
+body{
+    background-color: #f4f7fb;
+    font-family: MuseoSans,BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.css-1mgtuk2{
+    width: auto;
+}
+
+.css-13azwyo {
+    /* border: 2px solid black; */
+    color: #4f5864;
+    position: fixed;
+    top: 104px;
+    left: 13%;
+    background-color: white;
+    width: fit-content;
+    left: 24.4%;
+    padding: 10px;
+    border: 1px solid #5ab4ec;
+}
