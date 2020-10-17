@@ -1,0 +1,83 @@
+.category{
+    display: grid;
+    grid-template-columns: 94% 6%;
+    grid-template-rows: 100%;
+    grid-template-areas: "a b";
+}
+
+li .MuiSvgIcon-fontSizeSmall {
+    font-size: 0.8rem;
+    position: relative;
+    left: 92%;
+
+}
+
+li .dropdown-item {
+    border: none;
+    padding: 0 0 7px 0;
+    color: #4f5864;
+    font-size: 15px;
+    transition: all .15s ease-out;
+}
+
+li .MuiSvgIcon-fontSizeSmall:hover{
+    left:94%;
+}
+
+.cat-drop-down{
+    /* width: 80%; */
+    grid-area: b;
+    margin-top: 2px;
+    
+}
+
+
+
+/* .dropdown-menu{
+    padding:0 0;
+    border-bottom: none;
+    margin-top: 8px;
+   
+   } */
+   
+   .mega-item {
+       border-bottom: 0.5px solid rgba(0,0,0,.15);
+       color: #4f5864;
+       font-size: 15px;
+       transition: all .15s ease-out;
+   }
+
+   li .mega-item {
+    border: none;
+    padding: 0 0 7px 0;
+    color: #4f5864;
+    font-size: 15px;
+    transition: all .15s ease-out;
+    margin-bottom: 15px;
+}
+
+.mega-item> li,ul,div{
+    width: 100%;
+}
+
+.mega-item{
+    display: grid;
+    grid-template-columns: 88% 6%;
+    grid-template-rows: 100%;
+    grid-template-areas: "a b";
+}
+
+.mega-item:hover{
+    grid-template-columns: 90% 6%;
+
+}
+
+
+.css-13azwyo {
+    border: 2px solid black;
+    color: #4f5864;
+    position: fixed;
+    top: 31%;
+    left: 27.5%;
+}
+

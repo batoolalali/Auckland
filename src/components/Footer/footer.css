@@ -1,0 +1,134 @@
+footer {
+    margin-top: 5px;
+    background-color: #fff;
+    color: #4f5864;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 37px;
+
+}
+.social-media{
+    display: flex;
+}
+
+
+
+.social-media .MuiSvgIcon-root {
+    cursor: pointer;
+    fill: #fff;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    font-size: 2rem;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    flex-shrink: 0;
+    user-select: none;
+    border-radius: 50%;
+    border: 1px solid #4f5864;
+    background-color: #4f5864;
+    padding: 2px;
+    margin-right: 13px;
+}
+
+.social-media .MuiSvgIcon-root:hover {
+
+    border: 1px solid #5ab3ee;
+    background-color: #5ab3ee;
+}
+
+.footer-top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-top li:hover{
+    cursor: pointer;
+    color: #5ab3ee;
+}
+
+footer ul{
+    padding: 0;
+    width: auto;
+}
+
+footer .sub-form{
+    width: 100%;
+
+}
+
+footer h4{
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer-col1 .btn{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 16px 16px 16px 40px;
+    position: relative;
+    box-shadow: 0 0 8px 0 rgba(1,178,238,.5);
+    padding-left: 5px;
+
+}
+.footer-col1 .btn:hover{
+background-color: #5ab3ee;
+}
+
+.footer-bottom{
+    margin: auto;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #dce3ed;
+    background-color: #fff;
+
+}
+
+.footer-bottom p{
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+.footer-bottom span{
+    color: #5ab3ee;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.footer-col5{
+    width: 450px;
+
+}
+
+@media screen and (max-width: 1279px){
+    .footer-col5{
+        width: 100%;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #dce3ed;
+        padding-bottom: 30px;
+        margin-bottom: 1.2rem;
+
+    }
+    footer .sub-form{
+    
+        flex-basis: 100%;
+        padding-bottom: 30px;
+        order: 1; 
+        width: 100%;
+    }
+
+    .footer-col1, .footer-col2, .footer-col3, .footer-col4{
+        order: 2;
+    }    
+   }
+
+
+
+   
