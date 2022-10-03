@@ -95,7 +95,7 @@ export default class Header extends Component {
                                     </Dropdown.Toggle>
 
                                 <Dropdown.Menu className='list'>
-                                    <Category />
+                                    {/* <Category /> */}
                                 </Dropdown.Menu>
 
 
